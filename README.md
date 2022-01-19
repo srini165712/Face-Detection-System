@@ -16,8 +16,11 @@ This method has series of Convolutional layers followed by BatchNormalization th
 
 #### DB - VAE
 This method has VAE which has encoder and decoder. We use the encoder from CNN above and construct a decoder network and combine these two into one.
+
 Decoder : We apply deconvolution layers using Conv2DTranspose and try to reconstruct a image from input
+
 The approach is that the model should be able to learn the data in unsupervised way that it should predict all the underlying latent features.
+
 Now by using the DB-VAE I try to resample the entire training dataset that we provide to encoder such that we give importance to rarer images like dark skin, glasses etc.
 
-![alt_text](https://github.com/srini165712/Face-Detection-System/blob/main/Face%20Detection%20System/DB-VAE.png "2 CNN")
+![alt_text](https://github.com/srini165712/Face-Detection-System/blob/main/Face%20Detection%20System/DB-VAE.png "DB-VAE")
