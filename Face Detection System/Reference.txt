@@ -2,3 +2,4 @@ Reference Links :
 For Random Images {ImageNet}: https://image-net.org/
 Celebrity Images {CelebA}: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 DBVAE : https://medium.com/analytics-vidhya/vae-generative-modelling-for-face-recognition-71e8ba16950c
+Image dataset : https://www.kaggle.com/c/imagenet-object-localization-challenge/data?select=imagenet_object_localization_patched2019.tar.gz
